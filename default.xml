@@ -21,7 +21,7 @@
 
   <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop-mr1" />
 
-  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop-mr1" >
+  <project path="build" name="KangDroid/android_build" remote="github" revision="aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
