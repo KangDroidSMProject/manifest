@@ -450,8 +450,9 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="lollipop-mr1" />
+  <project path="system/core" name="KangDroid/android_system_core" remote="github" revision="aosp" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -472,7 +473,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop-mr1" >
+  <project path="vendor/pa" name="KangDroid/android_vendor_ackdp" remote="github" revision="aosp" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
