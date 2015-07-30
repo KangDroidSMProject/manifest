@@ -478,7 +478,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/sm" name="SaberMod/android-vendor-sabermod.git" remote="gitlab" revision="master" />
+  <project path="vendor/sm" name="KangDroid/android-vendor-sabermod.git" remote="gitlab" revision="master" />
   <project path="vendor/pa" name="KangDroid/android_vendor_ackdp" remote="github" revision="aosp" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
